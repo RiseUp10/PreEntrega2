@@ -4,8 +4,10 @@
 
 /* Header */
 
-header	{	border-bottom: 5px double #ffc107;
-}
+header	{	
+			border-bottom: 5px double #ffc107;
+			}
+
 /*.nav__ul	{	
 				color: white;
 				}*/
@@ -14,37 +16,43 @@ header	{	border-bottom: 5px double #ffc107;
 				color: white;
 				}
 
-/*.nav__ul--anc { 	font-size: 1.2  rem;
+/*.nav__ul--anc { 	
+					font-size: 1.2  rem;
 					text-decoration: none;
 					color: white;
-					
-					}*/
+										}*/
 
 /* Main */
 
-h1	{	font-weight: 700;
+h1	{	
+		font-weight: 700;
 		margin: 1rem 0;
 		}
 
-h2	{	font-size: 2rem;
+h2	{	
+		font-size: 2rem;
 		font-weight: 600;
 		margin: 1.5rem 0;
 		}
 
-p   {	text-align: justify;
+p   {	
+		text-align: justify;
 		font-size: 1.2rem;
 		font-style: italic;
 		}
 
-/*.main__imagen	{	position:relative;
-						z:0;
+/*.main__imagen	{	
+					position:relative;
+					z:0;
 					}
 
-.main__button	{	position:absolute;
-						z=1;
+.main__button	{	
+					position:absolute;
+					z=1;
 					}*/
 
 /* Footer */
 
-footer	{	border-top: 5px double #198754;
+footer	{	
+			border-top: 5px double #198754;
 			}
