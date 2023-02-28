@@ -1,9 +1,17 @@
+/* General */
+
+
+
 /* Header */
 
-/*.nav__ul	{	color: white;
+header	{	border-bottom: 5px double #ffc107;
+}
+/*.nav__ul	{	
+				color: white;
 				}*/
 
-.nav__a	{	 color: white;
+.nav__a	{	 
+				color: white;
 				}
 
 /*.nav__ul--anc { 	font-size: 1.2  rem;
