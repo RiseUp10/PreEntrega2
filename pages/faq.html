@@ -28,8 +28,8 @@
                                     Info General
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../pages/faq.html">Preguntas Frecuentes</a></li>
-                                    <li><a class="dropdown-item text-bg-success" href="#">Promotores de Descuentos</a></li>
+                                    <li><a class="dropdown-item text-bg-success" href="#">Preguntas Frecuentes</a></li>
+                                    <li><a class="dropdown-item" href="../pages/promotores.html">Promotores de Descuentos</a></li>
                                     <li><a class="dropdown-item" href="../pages/beneficios.html">Beneficios Vigentes</a></li>
                                 </ul>
                             </li>
@@ -42,64 +42,49 @@
             </nav>
         </header>
         <main>
-            <div class="container text-center">
-                <h2>Descuentos en Bancos</h2>
+			<h2 class="text-center">Preguntas Frecuentes</h2>
+            <div class="accordion accordion-flush mb-3" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        ¿Por qué debería usar el servicio?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body bg-success text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio deserunt minus est eaque fuga vero aspernatur cumque quo tenetur unde?</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header bg-success" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        ¿Tiene algún costo?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body bg-success text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto distinctio et eum! Autem earum deserunt ipsum beatae molestiae aspernatur, laudantium molestias nesciunt?</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        ¿La información con qué frecuencia se actualiza?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body bg-success text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi esse laudantium perferendis odit sunt amet sed rerum aliquam, nesciunt fugiat, hic iusto assumenda consequatur officia!</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        ¿Van a utilizar mis datos personales para hacer publicidad?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body bg-success text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi esse laudantium perferendis odit sunt amet sed rerum aliquam, nesciunt fugiat, hic iusto assumenda consequatur officia!</div>
+                    </div>
+                </div>
             </div>
-            <table class="table text-center container table-striped mb-5">
-                <thead>
-                    <tr class="table-success">
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                    </tr>
-                </thead>
-                <tbody class="table-hover">
-                <tr class="table-warning">
-                    <th scope="row">1</th>
-                    <td>Supervielle</td>
-                    <td>20%</td>
-                </tr>
-                <tr class="table-warning">
-                    <th scope="row">2</th>
-                    <td>BBVA</td>
-                    <td>15%</td>
-                </tr>
-                <tr class="table-warning">
-                    <th scope="row">3</th>
-                    <td>Nación</td>
-                    <td>25%</td>
-                </tr>
-                </tbody>
-            </table>
-            <div class="container text-center">
-                <h2>Descuentos en Supermercados</h2>
-            </div>
-            <table class="table text-center container table-striped mb-5">
-                <thead>
-                    <tr class="table-success">
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                    </tr>
-                </thead>
-                <tbody class="table-hover">
-                <tr class="table-warning">
-                    <th scope="row">1</th>
-                    <td>Coto</td>
-                    <td>15%</td>
-                </tr>
-                <tr class="table-warning">
-                    <th scope="row">2</th>
-                    <td>Carrefour</td>
-                    <td>25%</td>
-                </tr>
-                <tr class="table-warning">
-                    <th scope="row">3</th>
-                    <td>Disco</td>
-                    <td>20%</td>
-                </tr>
-                </tbody>
-            </table>
         </main>
         <footer>
             <div class="container-fluid bg-warning">
@@ -130,7 +115,7 @@
                     </div>
                 </div>
             </div>
-        </footer>   
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 	</body>
 </html>
